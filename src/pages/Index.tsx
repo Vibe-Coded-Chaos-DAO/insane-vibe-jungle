@@ -1,12 +1,29 @@
-// Update this page (the content is just a fallback if you fail to update the page)
+import HeroSection from "@/components/HeroSection";
+import RoadmapSection from "@/components/RoadmapSection";
+import NFTTokenSection from "@/components/NFTTokenSection";
+import TickerSection from "@/components/TickerSection";
+import SocialSection from "@/components/SocialSection";
+import Footer from "@/components/Footer";
+import FloatingRocket from "@/components/FloatingRocket";
 
 const Index = () => {
   return (
-    <div className="min-h-screen flex items-center justify-center bg-background">
-      <div className="text-center">
-        <h1 className="text-4xl font-bold mb-4">Welcome to Your Blank App</h1>
-        <p className="text-xl text-muted-foreground">Start building your amazing project here!</p>
-      </div>
+    <div className="min-h-screen bg-gradient-jungle">
+      {/* Floating Rocket Animation */}
+      <FloatingRocket />
+      
+      {/* Main Sections */}
+      <HeroSection />
+      
+      <TickerSection />
+      
+      <RoadmapSection />
+      
+      <NFTTokenSection />
+      
+      <SocialSection />
+      
+      <Footer />
     </div>
   );
 };

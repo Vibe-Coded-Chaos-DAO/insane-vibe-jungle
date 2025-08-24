@@ -61,7 +61,24 @@ export default {
 					'accent-foreground': 'hsl(var(--sidebar-accent-foreground))',
 					border: 'hsl(var(--sidebar-border))',
 					ring: 'hsl(var(--sidebar-ring))'
+				},
+				// Meme Jungle Colors
+				jungle: {
+					green: 'hsl(var(--jungle-green))',
+					orange: 'hsl(var(--degen-orange))',
+					yellow: 'hsl(var(--chaos-yellow))',
+					purple: 'hsl(var(--moon-purple))',
+					brown: 'hsl(var(--ape-brown))',
+					lime: 'hsl(var(--frog-lime))'
 				}
+			},
+			fontFamily: {
+				cartoon: ['Fredoka One', 'Comic Sans MS', 'cursive'],
+			},
+			backgroundImage: {
+				'gradient-jungle': 'var(--gradient-jungle)',
+				'gradient-chaos': 'var(--gradient-chaos)',
+				'gradient-degen': 'var(--gradient-degen)'
 			},
 			borderRadius: {
 				lg: 'var(--radius)',
